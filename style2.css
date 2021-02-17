@@ -1,0 +1,117 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#D0CFCF;
+}
+
+body {
+	background-image: url("backgroundimage.jpg");
+	background-size: auto 1280px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color:#DF6735;
+}
+
+#logo {
+	width: 15%;
+
+	position: relative;
+	left: 5%;
+	top: 50px;
+}
+
+#home {
+	padding: 0px 25px 0px 25px;
+
+	position: absolute;
+	right: 390px;
+	top: 80px;
+	}
+
+#home:hover {
+	color:#DF6735;
+}
+
+#future_career {
+	padding: 0px 25px 0px 25px;
+
+	position: absolute;
+	right: 220px;
+	top: 80px;
+}
+
+#future_career:hover {
+	color:#DF6735;
+}
+
+#references {
+	padding: 0px 25px 0px 25px;
+
+	position: absolute;
+	right: 80px;
+	top: 80px;
+}
+
+#references:hover {
+	color:#DF6735;
+}
+
+.paragraphs {
+	background-color: rgba(0, 0, 0, 0.55);
+	text-align: justify;
+
+	width: 57.5%;
+	max-width: 90%;
+	margin-bottom: 2%;
+
+	position: absolute;
+	right: 30%;
+	left: 27%;
+	top: 250px;
+
+	border-radius: 15px;
+	border: 1px solid #F7D209;
+
+	padding: 15px;
+}
+
+.paragraphs a {
+	color: #5BECD1;
+}
+
+.paragraphs a:hover {
+	color:#DF6735;
+}
+
+.paragraphs table {
+	border-collapse: collapse;
+	max-width: 30px;
+	border-radius: 9px;
+	overflow: hidden;
+	width: 30%;
+}
+
+.paragraphs th {
+	text-align: center;
+	background-color: rgba(247, 210, 9, 0.5);
+	padding: 12px 15px;
+	border: 1px solid #F7D209;
+}
+
+.paragraphs td {
+	text-align: left;
+	background-color: rgba(36, 14, 104, 0.5);
+	border: 1px solid #F7D209;
+}
+
+.address {
+	position: relative;
+	left: 4%;
+	top: 100px;
+}
